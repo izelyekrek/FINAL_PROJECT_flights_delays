@@ -1,3 +1,5 @@
+![alt text](http://https://images.app.goo.gl/QbQqZvbHUYHJLSY18/to/img.png)
+
 # FINAL_PROJECT_flights_delays
 
 Hello ! Here I am today to present you my project about predicting passenger's satisfaction on their flight.
