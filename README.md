@@ -1,4 +1,4 @@
-![alt text](http://https://images.app.goo.gl/QbQqZvbHUYHJLSY18/to/img.png)
+![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/1002487-aviation.webp)
 
 # FINAL_PROJECT_flights_delays
 
