@@ -1,6 +1,10 @@
 # FINAL_PROJECT_flights_delays
 
+Hello ! Here I am today to present you my project about predicting passenger's satisfaction on their flight.
 
+# 1 Context 
+
+This dataset contains an airline passenger satisfaction survey from 2015.
 
 | Column | Description |
 | --- | --- |
@@ -28,3 +32,17 @@
 | departure_delay_in_minutes | Minutes delayed when departure |
 | arrival_delay_in_minutes | Minutes delayed when Arrival |
 | satisfaction | Airline satisfaction level(Satisfaction, neutral or dissatisfaction) |
+
+# 2 Cleaning the dataset 
+The dataset was mainly cleaned except just a few rows in the column arrival_delay_in_minutes where some rows were null.
+
+# 3 The organization of the project 
+
+Regarding this dataset, my target column : satisfaction, is a categorical column. 
+For this I have to encode this target column for applying different machine learning models such as :
+
+| Model | Description |
+| --- | --- |
+| Logistic regression | |
+| Classification | |
+| Random Forest | |
