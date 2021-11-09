@@ -33,10 +33,8 @@ This dataset contains an airline passenger satisfaction survey from 2015.
 | arrival_delay_in_minutes | Minutes delayed when Arrival |
 | satisfaction | Airline satisfaction level(Satisfaction, neutral or dissatisfaction) |
 
-# 2 Cleaning the dataset 
-The dataset was mainly cleaned except just a few rows in the column arrival_delay_in_minutes where some rows were null.
 
-# 3 The organization of the project 
+# 2 The organization of the project 
 
 Regarding this dataset, my target column : satisfaction, is a categorical column. 
 For this I have to encode this target column for applying different machine learning models such as :
@@ -46,3 +44,6 @@ For this I have to encode this target column for applying different machine lear
 | Logistic regression | |
 | Classification | |
 | Random Forest | |
+
+# 3 Cleaning the dataset 
+The dataset was mainly cleaned except just a few rows in the column arrival_delay_in_minutes where some rows were null.
