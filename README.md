@@ -48,10 +48,13 @@ For this I have to encode this target column for applying different machine lear
 | Random Forest | |
 
 # 4 Imported Librearies
+
+![alt text](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/GIS-Python-Libraries-Featured.png)
+
 | Project | Library | Link |
 | --- | --- | --- |
 | Cleaning the dataset | Pandas | https://pandas.pydata.org/ | 
-| | | |
+| | Numpy | https://numpy.org/ |
 |  | |
 | | | |
 | | | |
