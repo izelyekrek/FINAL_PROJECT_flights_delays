@@ -53,10 +53,12 @@ For this I have to encode this target column for applying different machine lear
 
 | Project | Library | Link |
 | --- | --- | --- |
-| Cleaning the dataset | Pandas | https://pandas.pydata.org/ | 
+| CLEANING THE DATASET | Pandas | https://pandas.pydata.org/ | 
 | | Numpy | https://numpy.org/ |
-|  | |
-| | | |
-| | | |
-| | | |
-| | | |
+| | Seaborn | https://seaborn.pydata.org/ |
+| | Matplotlib | https://matplotlib.org/stable/index.html |
+| SQL ANALYSE | Pymysql | https://pypi.org/project/PyMySQL/ |
+| | Sqlalchemy  | https://www.sqlalchemy.org/ |
+| | Pandas | https://pandas.pydata.org/ | 
+| | Getpass | https://docs.python.org/3/library/getpass.html|
+
