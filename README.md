@@ -1,8 +1,9 @@
-![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/1002487-aviation.webp)
+![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/Images/1002487-aviation.webp)
 
 # FINAL_PROJECT_flights_delays
 
-Hello ! Here I am today to present you my project about predicting passenger's satisfaction on their flight.
+Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
+This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
 # 1 Context 
 
@@ -44,8 +45,15 @@ For this I have to encode this target column for applying different machine lear
 | Model | Description |
 | --- | --- |
 | Logistic regression | |
-| Classification | |
 | Random Forest | |
 
-# 3 Cleaning the dataset 
-The dataset was mainly cleaned except just a few rows in the column arrival_delay_in_minutes where some rows were null.
+# 4 Imported Librearies
+| Project | Library | Link |
+| --- | --- |
+| Cleaning the dataset | Pandas | https://pandas.pydata.org/ | 
+| | | |
+|  | |
+| | | |
+| | | |
+| | | |
+| | | |
