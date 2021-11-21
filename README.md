@@ -1,4 +1,4 @@
-![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/Images/1002487-aviation.webp)
+![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/1002487-aviation.webp)
 
 # FINAL_PROJECT_flights_delays
 
@@ -49,7 +49,7 @@ For this I have to encode this target column for applying different machine lear
 
 # 4 Imported Librearies
 | Project | Library | Link |
-| --- | --- |
+| --- | --- | --- |
 | Cleaning the dataset | Pandas | https://pandas.pydata.org/ | 
 | | | |
 |  | |
