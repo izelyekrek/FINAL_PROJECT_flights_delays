@@ -4,6 +4,7 @@
 
 Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
 This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction.
+You can find the following link, my visualizations on Tableau Public : https://public.tableau.com/app/profile/yekrek.
 
 # 1 Context 
 
@@ -76,4 +77,4 @@ This helped me to built my models to find the best prediction score.
 | Logistic Regression | 0,97 | As we can see, the score is really high. I checked through a matrix, to understand better this score. This matrix shows that 97,7% of the preditions are "True" and 2,3% are "False". |
 | Random Forest | 0,97 | This is obtained with a max_depth = 1 as a parameter. The main paramters are the following : random_state=0, max_depth=1, max_features='sqrt', min_samples_leaf=5, min_samples_split=5, n_estimators=250 |
 | | 0,99 | This is obtained with a max_depth = 2 as a parameter. |
-| | 1 | This is obtained with a max_depth = 3 as a parameter. After 3 the score is always 1.|
+| | 1 | This is obtained with a max_depth = 3 as a parameter. After 3, the score is always 1.|
