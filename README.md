@@ -49,8 +49,6 @@ For this I have to encode this target column for applying different machine lear
 
 # 4 Imported Libraries
 
-![alt text](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/GIS-Python-Libraries-Featured.png)
-
 | Project | Library | Link |
 | --- | --- | --- |
 | CLEANING THE DATASET | Pandas | https://pandas.pydata.org/ | 
@@ -59,23 +57,9 @@ For this I have to encode this target column for applying different machine lear
 | | Matplotlib | https://matplotlib.org/stable/index.html |
 | SQL ANALYSE | Pymysql | https://pypi.org/project/PyMySQL/ |
 | | Sqlalchemy  | https://www.sqlalchemy.org/ |
-| | Pandas | https://pandas.pydata.org/ | 
 | | Getpass | https://docs.python.org/3/library/getpass.html| |
-| MACHINE LEARNING | Pandas | https://pandas.pydata.org/ | 
-| | Numpy | https://numpy.org/ |
-| | Math | https://docs.python.org/3/library/math.html |
-| | OneHotEncoder | https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html |
-| | Train_test_split | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html |
-| | R2_score | https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html |
-| | Matplotlib | https://matplotlib.org/stable/index.html |
-| | Seaborn | https://seaborn.pydata.org/ |
-| | LogisticRegression | https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html |
-| | StandardScaler | https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html |
-| | Confusion_matrix | https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html |
-| | GridSearchCV | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html |
-| | RandomForestClassifier | https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html |
-| | Cross_val_score | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html |
-| | RandomizedSearchCV | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html |
+| MACHINE LEARNING | Math | https://docs.python.org/3/library/math.html |
+| | Scikit-learn |https://scikit-learn.org/stable/
 
 # 5 Project's overall cleaning step
 
@@ -90,4 +74,6 @@ This helped me to built my models to find the best prediction score.
 | Model | Score | Results
 | --- | --- | --- | 
 | Logistic Regression | 0,97 | As we can see, the score is really high. I checked through a matrix, to understand better this score. This matrix shows that 97,7% of the preditions are "True" and 2,3% are "False". |
-| Random Forest |  |  |
+| Random Forest | 0,97 | This is obtained with a max_depth = 1 as a parameter. The main paramters are the following : random_state=0, max_depth=1, max_features='sqrt', min_samples_leaf=5, min_samples_split=5, n_estimators=250 |
+| | 0,99 | This is obtained with a max_depth = 2 as a parameter. |
+| | 1 | This is obtained with a max_depth = 3 as a parameter. After 3 the score is always 1.|
