@@ -2,13 +2,15 @@
 
 # FINAL_PROJECT_flights_delays
 
-Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
-This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction.
-You can find the following link, my visualizations on Tableau Public : https://public.tableau.com/app/profile/yekrek.
+    Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
+
+    This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction.
+
+    You can find the following link, my visualizations on Tableau Public : https://public.tableau.com/app/profile/yekrek.
 
 # 1 Context 
 
-This dataset contains an airline passenger satisfaction survey from 2015.
+    This dataset contains an airline passenger satisfaction survey from 2015.
 
 | Column | Description |
 | --- | --- |
@@ -40,8 +42,8 @@ This dataset contains an airline passenger satisfaction survey from 2015.
 
 # 2 The organization of the project 
 
-Regarding this dataset, my target column : satisfaction, is a categorical column. 
-For this I have to encode this target column for applying different machine learning models such as :
+    Regarding this dataset, my target column : satisfaction, is a categorical column. 
+    For this I have to encode this target column for applying different machine learning models such as :
 
 | Model | Description | Why we use it in our project ? |
 | --- | --- | --- |
@@ -64,13 +66,13 @@ For this I have to encode this target column for applying different machine lear
 
 # 5 Project's overall cleaning step
 
-When I first imported the dataset, my dataset had 103 904 rows and 25 columns. 
-After cleaning the dataset and removing outliers, my final dataset has 75 119 rows and 24 columns. 
+    When I first imported the dataset, my dataset had 103 904 rows and 25 columns. 
+    After cleaning the dataset and removing outliers, my final dataset has 75 119 rows and 24 columns. 
 
 # 6 Results
 
-After cleaning the dataset and removing outliers, I encoded the categorical columns.
-This helped me to built my models to find the best prediction score.
+    After cleaning the dataset and removing outliers, I encoded the categorical columns.
+    This helped me to built my models to find the best prediction score.
 
 | Model | Score | Results
 | --- | --- | --- | 
