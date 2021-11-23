@@ -3,7 +3,7 @@
 # FINAL_PROJECT_flights_delays
 
 Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
-This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
+This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction.
 
 # 1 Context 
 
@@ -47,7 +47,7 @@ For this I have to encode this target column for applying different machine lear
 | Logistic regression | Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable. Logistic regression means binary logistic regression having binary target variables, but there can be two more categories of target variables that can be predicted by it | In our case, our target value is a categorical value and there is only 2 variables : 'satisfied' or 'neutral or dissatisfaction'. So these varibles can be encoded to 0 and 1. |
 | Random Forest | It is made up of a large number of small decision trees, called estimators, which each produce their own predictions. The random forest model combines the predictions of the estimators to produce a more accurate prediction. | It provides higher accuracy through cross validation. It has the power to handle a large data set with higher dimensionality. |
 
-# 4 Imported Librearies
+# 4 Imported Libraries
 
 ![alt text](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/GIS-Python-Libraries-Featured.png)
 
@@ -77,5 +77,17 @@ For this I have to encode this target column for applying different machine lear
 | | Cross_val_score | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html |
 | | RandomizedSearchCV | https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html |
 
+# 5 Project's overall cleaning step
 
+When I first imported the dataset, my dataset had 103 904 rows and 25 columns. 
+After cleaning the dataset and removing outliers, my final dataset has 75 119 rows and 24 columns. 
 
+# 6 Results
+
+After cleaning the dataset and removing outliers, I encoded the categorical columns.
+This helped me to built my models to find the best prediction score.
+
+| Model | Score | Results
+| --- | --- | 
+| Logistic Regression | 0,97 | As we can see, the score is really high. I checked through a matrix, to understand better this score. This matrix shows that 97,7% of the preditions are "True" and 2,3% are "False". |
+| Random Forest |  |  |
