@@ -88,6 +88,6 @@ After cleaning the dataset and removing outliers, I encoded the categorical colu
 This helped me to built my models to find the best prediction score.
 
 | Model | Score | Results
-| --- | --- | 
+| --- | --- | --- | 
 | Logistic Regression | 0,97 | As we can see, the score is really high. I checked through a matrix, to understand better this score. This matrix shows that 97,7% of the preditions are "True" and 2,3% are "False". |
 | Random Forest |  |  |
