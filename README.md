@@ -1,8 +1,8 @@
 ![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/1002487-aviation.webp)
 
-# FINAL_PROJECT_flights_delays
+# FINAL_PROJECT_passenger_satisfaction
 
-Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger's satisfaction on their flight.
+Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger satisfaction on their flight.
 
 This dataset was founded in the following link on Kaggle : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction.
 
