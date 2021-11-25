@@ -1,6 +1,6 @@
 ![Cover](https://github.com/izelyekrek/FINAL_PROJECT_passengers_satisfaction/blob/main/Images/1002487-aviation.webp)
 
-# FINAL_PROJECT_passenger_satisfaction
+# Passenger Satisfaction Prediction
 
 Hello ! Here I am today to present you my project about predicting US Airline 2015 passenger satisfaction on their flight.
 
